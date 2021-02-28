@@ -124,7 +124,7 @@ public class IbUtilsTest {
     public void testGetSecurityType() {
         InstrumentType[] values = InstrumentType.values();
         for (InstrumentType value : values) {
-            if( value != InstrumentType.BITCOIN ) {
+            if( value != InstrumentType.BITCOIN && value != InstrumentType.NONE) {
                 assertNotNull(IbUtils.getSecurityType(value));
             }
         }
