@@ -40,8 +40,21 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             <url>https://api.bintray.com/maven/rterp/maven/SumZeroTrading/;publish=1</url>
         </repository>
     </distributionManagement>
-    
-    
+
+    <repositories>
+        <repository>
+            <id>yyang.io</id>
+            <name>Yang Yu's Maven Repo</name>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <url>https://nexus.yyang.io/repository/thirdparty/</url>
+        </repository>
+    </repositories>
+
     
     <build>
         <plugins>

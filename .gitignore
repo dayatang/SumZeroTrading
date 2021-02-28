@@ -1,3 +1,15 @@
+*.DS_Store
+.settings
+.project
+.classpath
+target/
+*.log
+*.tlog
+.idea/
+*.class
+.vagrant/
+
+
 /sumzeroParent/sumzero-commons-api/target/
 # NetBeans specific #
 nbproject/private/
@@ -8,6 +20,9 @@ nbdist/
 target/
 nbactions.xml
 nb-configuration.xml
+
+*.iml
+
 
 # Class Files #
 *.class
